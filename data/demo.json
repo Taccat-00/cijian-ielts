@@ -1,0 +1,1200 @@
+{
+  "version": 1,
+  "name": "雅思主题示例词库",
+  "kind": "demo",
+  "chapters": [
+    {
+      "id": "1",
+      "name": "自然地理",
+      "subtitle": "THE NATURAL WORLD"
+    },
+    {
+      "id": "2",
+      "name": "植物研究",
+      "subtitle": "PLANTS & GROWTH"
+    },
+    {
+      "id": "3",
+      "name": "动物保护",
+      "subtitle": "ANIMALS & CONSERVATION"
+    },
+    {
+      "id": "4",
+      "name": "太空探索",
+      "subtitle": "SPACE & DISCOVERY"
+    },
+    {
+      "id": "5",
+      "name": "学校教育",
+      "subtitle": "LEARNING & EDUCATION"
+    },
+    {
+      "id": "6",
+      "name": "科技发明",
+      "subtitle": "SCIENCE & TECHNOLOGY"
+    },
+    {
+      "id": "7",
+      "name": "文化历史",
+      "subtitle": "CULTURE & HISTORY"
+    },
+    {
+      "id": "8",
+      "name": "语言演化",
+      "subtitle": "LANGUAGE & COMMUNICATION"
+    },
+    {
+      "id": "9",
+      "name": "娱乐运动",
+      "subtitle": "LEISURE & SPORT"
+    },
+    {
+      "id": "10",
+      "name": "物品材料",
+      "subtitle": "OBJECTS & MATERIALS"
+    },
+    {
+      "id": "11",
+      "name": "时尚潮流",
+      "subtitle": "FASHION & STYLE"
+    },
+    {
+      "id": "12",
+      "name": "饮食健康",
+      "subtitle": "FOOD & NUTRITION"
+    },
+    {
+      "id": "13",
+      "name": "建筑场所",
+      "subtitle": "BUILDINGS & PLACES"
+    },
+    {
+      "id": "14",
+      "name": "交通旅行",
+      "subtitle": "TRANSPORT & TRAVEL"
+    },
+    {
+      "id": "15",
+      "name": "国家政府",
+      "subtitle": "GOVERNMENT & POLICY"
+    },
+    {
+      "id": "16",
+      "name": "社会经济",
+      "subtitle": "SOCIETY & ECONOMY"
+    },
+    {
+      "id": "17",
+      "name": "法律法规",
+      "subtitle": "LAW & REGULATION"
+    },
+    {
+      "id": "18",
+      "name": "沙场争锋",
+      "subtitle": "CONFLICT & PEACE"
+    },
+    {
+      "id": "19",
+      "name": "社会角色",
+      "subtitle": "PEOPLE & ROLES"
+    },
+    {
+      "id": "20",
+      "name": "行为动作",
+      "subtitle": "ACTIONS & CHANGE"
+    },
+    {
+      "id": "21",
+      "name": "身心健康",
+      "subtitle": "BODY & MIND"
+    },
+    {
+      "id": "22",
+      "name": "时间日期",
+      "subtitle": "TIME & ROUTINE"
+    }
+  ],
+  "words": [
+    {
+      "id": "atmosphere",
+      "word": "atmosphere",
+      "variants": [
+        "atmosphere"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "大气；气氛"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈætməsfɪə(r)/",
+      "example": "A calm atmosphere helps me concentrate.",
+      "translation": "安静的氛围有助于我集中注意力。",
+      "memory": "搭配记忆：a relaxed atmosphere，轻松的氛围。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "hydrosphere",
+      "word": "hydrosphere",
+      "variants": [
+        "hydrosphere"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "水圈"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈhaɪdrəsfɪə(r)/",
+      "example": "Oceans form a large part of the hydrosphere.",
+      "translation": "海洋构成了水圈的很大一部分。",
+      "memory": "联想记忆：把地球上的海洋、河流和湖泊想成一个整体。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "lithosphere",
+      "word": "lithosphere",
+      "variants": [
+        "lithosphere"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "岩石圈"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈlɪθəsfɪə(r)/",
+      "example": "The lithosphere is the rigid outer part of the Earth.",
+      "translation": "岩石圈是地球坚硬的外层部分。",
+      "memory": "对比记忆：lithosphere 岩石圈；hydrosphere 水圈。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "oxygen",
+      "word": "oxygen",
+      "variants": [
+        "oxygen"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "氧；氧气"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈɒksɪdʒən/",
+      "example": "Fish need oxygen dissolved in water.",
+      "translation": "鱼需要溶解在水中的氧气。",
+      "memory": "场景记忆：呼吸、潜水与氧气瓶。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "oxide",
+      "word": "oxide",
+      "variants": [
+        "oxide"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "氧化物"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈɒksaɪd/",
+      "example": "The experiment produced a metal oxide.",
+      "translation": "实验产生了一种金属氧化物。",
+      "memory": "搭配记忆：metal oxide，金属氧化物。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "carbon dioxide",
+      "word": "carbon dioxide",
+      "variants": [
+        "carbon dioxide"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "二氧化碳"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˌkɑːbən daɪˈɒksaɪd/",
+      "example": "Trees absorb carbon dioxide as they grow.",
+      "translation": "树木在生长过程中吸收二氧化碳。",
+      "memory": "搭配记忆：carbon dioxide emissions，二氧化碳排放。",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "hydrogen",
+      "word": "hydrogen",
+      "variants": [
+        "hydrogen"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "氢；氢气"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈhaɪdrədʒən/",
+      "example": "Hydrogen can be used as a fuel.",
+      "translation": "氢可以用作燃料。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "core",
+      "word": "core",
+      "variants": [
+        "core"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "核心；地核"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/kɔː(r)/",
+      "example": "Practice is at the core of this course.",
+      "translation": "练习是这门课程的核心。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "crust",
+      "word": "crust",
+      "variants": [
+        "crust"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "地壳；硬皮"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/krʌst/",
+      "example": "The crust is the outermost layer of the Earth.",
+      "translation": "地壳是地球最外面的一层。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "mantle",
+      "word": "mantle",
+      "variants": [
+        "mantle"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "地幔；披风"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈmæntl/",
+      "example": "The mantle lies beneath the crust.",
+      "translation": "地幔位于地壳之下。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "longitude",
+      "word": "longitude",
+      "variants": [
+        "longitude"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "经度"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈlɒŋɡɪtjuːd/",
+      "example": "The map shows both latitude and longitude.",
+      "translation": "地图同时标出了纬度和经度。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "latitude",
+      "word": "latitude",
+      "variants": [
+        "latitude"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "纬度"
+      ],
+      "chapters": [
+        "1"
+      ],
+      "phonetic": "/ˈlætɪtjuːd/",
+      "example": "Day length changes with latitude.",
+      "translation": "白昼长度随纬度而变化。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "seed",
+      "word": "seed",
+      "variants": [
+        "seed"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "种子"
+      ],
+      "chapters": [
+        "2"
+      ],
+      "phonetic": "/siːd/",
+      "example": "We planted a seed in a small pot.",
+      "translation": "我们在一个小花盆里种下一粒种子。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "habitat",
+      "word": "habitat",
+      "variants": [
+        "habitat"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "栖息地"
+      ],
+      "chapters": [
+        "2"
+      ],
+      "phonetic": "/ˈhæbɪtæt/",
+      "example": "The wetland provides a habitat for many plants.",
+      "translation": "这片湿地为许多植物提供了生境。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "wildlife",
+      "word": "wildlife",
+      "variants": [
+        "wildlife"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "野生动物"
+      ],
+      "chapters": [
+        "3"
+      ],
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "example": "Noise can disturb local wildlife.",
+      "translation": "噪声会干扰当地的野生动物。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "species",
+      "word": "species",
+      "variants": [
+        "species"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "物种"
+      ],
+      "chapters": [
+        "3"
+      ],
+      "phonetic": "/ˈspiːʃiːz/",
+      "example": "This island is home to several rare species.",
+      "translation": "这座岛屿是几种珍稀物种的家园。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "orbit",
+      "word": "orbit",
+      "variants": [
+        "orbit"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "轨道"
+      ],
+      "chapters": [
+        "4"
+      ],
+      "phonetic": "/ˈɔːbɪt/",
+      "example": "The satellite entered a stable orbit.",
+      "translation": "卫星进入了一条稳定的轨道。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "planet",
+      "word": "planet",
+      "variants": [
+        "planet"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "行星"
+      ],
+      "chapters": [
+        "4"
+      ],
+      "phonetic": "/ˈplænɪt/",
+      "example": "The team is studying a distant planet.",
+      "translation": "团队正在研究一颗遥远的行星。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "curriculum",
+      "word": "curriculum",
+      "variants": [
+        "curriculum"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "课程体系；全部课程"
+      ],
+      "chapters": [
+        "5"
+      ],
+      "phonetic": "/kəˈrɪkjələm/",
+      "example": "The new curriculum includes practical projects.",
+      "translation": "新的课程体系包含实践项目。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "scholarship",
+      "word": "scholarship",
+      "variants": [
+        "scholarship"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "奖学金"
+      ],
+      "chapters": [
+        "5"
+      ],
+      "phonetic": "/ˈskɒləʃɪp/",
+      "example": "She applied for a scholarship to study abroad.",
+      "translation": "她申请了出国留学的奖学金。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "innovation",
+      "word": "innovation",
+      "variants": [
+        "innovation"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "创新"
+      ],
+      "chapters": [
+        "6"
+      ],
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "example": "Innovation often begins with a simple question.",
+      "translation": "创新常常始于一个简单的问题。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "device",
+      "word": "device",
+      "variants": [
+        "device"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "装置；设备"
+      ],
+      "chapters": [
+        "6"
+      ],
+      "phonetic": "/dɪˈvaɪs/",
+      "example": "This device measures air quality.",
+      "translation": "这个设备测量空气质量。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "heritage",
+      "word": "heritage",
+      "variants": [
+        "heritage"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "遗产"
+      ],
+      "chapters": [
+        "7"
+      ],
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "example": "The museum protects the cultural heritage of the city.",
+      "translation": "博物馆保护这座城市的文化遗产。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "tradition",
+      "word": "tradition",
+      "variants": [
+        "tradition"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "传统"
+      ],
+      "chapters": [
+        "7"
+      ],
+      "phonetic": "/trəˈdɪʃn/",
+      "example": "Sharing a meal is an important family tradition.",
+      "translation": "一起吃饭是一项重要的家庭传统。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "dialect",
+      "word": "dialect",
+      "variants": [
+        "dialect"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "方言"
+      ],
+      "chapters": [
+        "8"
+      ],
+      "phonetic": "/ˈdaɪəlekt/",
+      "example": "My grandparents speak a local dialect.",
+      "translation": "我的祖父母说一种当地方言。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "fluent",
+      "word": "fluent",
+      "variants": [
+        "fluent"
+      ],
+      "pos": "adj.",
+      "meanings": [
+        "流利的"
+      ],
+      "chapters": [
+        "8"
+      ],
+      "phonetic": "/ˈfluːənt/",
+      "example": "Regular conversation helped her become fluent.",
+      "translation": "经常对话帮助她说得更加流利。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "athlete",
+      "word": "athlete",
+      "variants": [
+        "athlete"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "运动员"
+      ],
+      "chapters": [
+        "9"
+      ],
+      "phonetic": "/ˈæθliːt/",
+      "example": "The athlete trains before breakfast.",
+      "translation": "这位运动员在早餐前训练。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "leisure",
+      "word": "leisure",
+      "variants": [
+        "leisure"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "闲暇"
+      ],
+      "chapters": [
+        "9"
+      ],
+      "phonetic": "/ˈleʒə(r)/",
+      "example": "I enjoy reading in my leisure time.",
+      "translation": "我喜欢在闲暇时阅读。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "fabric",
+      "word": "fabric",
+      "variants": [
+        "fabric"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "织物；布料"
+      ],
+      "chapters": [
+        "10"
+      ],
+      "phonetic": "/ˈfæbrɪk/",
+      "example": "This fabric dries quickly.",
+      "translation": "这种布料干得很快。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "durable",
+      "word": "durable",
+      "variants": [
+        "durable"
+      ],
+      "pos": "adj.",
+      "meanings": [
+        "耐用的"
+      ],
+      "chapters": [
+        "10"
+      ],
+      "phonetic": "/ˈdjʊərəbl/",
+      "example": "We need a durable material for the roof.",
+      "translation": "我们需要一种耐用的屋顶材料。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "garment",
+      "word": "garment",
+      "variants": [
+        "garment"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "服装"
+      ],
+      "chapters": [
+        "11"
+      ],
+      "phonetic": "/ˈɡɑːmənt/",
+      "example": "Each garment is made from recycled cotton.",
+      "translation": "每件服装都由再生棉制成。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "trend",
+      "word": "trend",
+      "variants": [
+        "trend"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "趋势；潮流"
+      ],
+      "chapters": [
+        "11"
+      ],
+      "phonetic": "/trend/",
+      "example": "The survey revealed a new consumer trend.",
+      "translation": "调查揭示了一种新的消费趋势。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "nutrition",
+      "word": "nutrition",
+      "variants": [
+        "nutrition"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "营养"
+      ],
+      "chapters": [
+        "12"
+      ],
+      "phonetic": "/njuˈtrɪʃn/",
+      "example": "Good nutrition supports healthy growth.",
+      "translation": "良好的营养有助于健康成长。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "ingredient",
+      "word": "ingredient",
+      "variants": [
+        "ingredient"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "原料；成分"
+      ],
+      "chapters": [
+        "12"
+      ],
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "example": "Beans are the main ingredient in this dish.",
+      "translation": "豆子是这道菜的主要原料。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "architecture",
+      "word": "architecture",
+      "variants": [
+        "architecture"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "建筑学；建筑风格"
+      ],
+      "chapters": [
+        "13"
+      ],
+      "phonetic": "/ˈɑːkɪtektʃə(r)/",
+      "example": "The city is known for its modern architecture.",
+      "translation": "这座城市以现代建筑风格闻名。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "residence",
+      "word": "residence",
+      "variants": [
+        "residence"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "住所"
+      ],
+      "chapters": [
+        "13"
+      ],
+      "phonetic": "/ˈrezɪdəns/",
+      "example": "The old school became a private residence.",
+      "translation": "这所旧学校变成了一处私人住宅。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "commute",
+      "word": "commute",
+      "variants": [
+        "commute"
+      ],
+      "pos": "v.",
+      "meanings": [
+        "通勤"
+      ],
+      "chapters": [
+        "14"
+      ],
+      "phonetic": "/kəˈmjuːt/",
+      "example": "Many people commute by train.",
+      "translation": "许多人乘火车通勤。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "destination",
+      "word": "destination",
+      "variants": [
+        "destination"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "目的地"
+      ],
+      "chapters": [
+        "14"
+      ],
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "example": "We reached our destination before sunset.",
+      "translation": "我们在日落前到达了目的地。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "policy",
+      "word": "policy",
+      "variants": [
+        "policy"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "政策"
+      ],
+      "chapters": [
+        "15"
+      ],
+      "phonetic": "/ˈpɒləsi/",
+      "example": "The policy aims to reduce waste.",
+      "translation": "这项政策旨在减少浪费。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "citizen",
+      "word": "citizen",
+      "variants": [
+        "citizen"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "公民"
+      ],
+      "chapters": [
+        "15"
+      ],
+      "phonetic": "/ˈsɪtɪzn/",
+      "example": "Every citizen can take part in the discussion.",
+      "translation": "每位公民都可以参与讨论。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "investment",
+      "word": "investment",
+      "variants": [
+        "investment"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "投资"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "phonetic": "/ɪnˈvestmənt/",
+      "example": "The town needs more investment in public transport.",
+      "translation": "这个城镇需要更多公共交通投资。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "employment",
+      "word": "employment",
+      "variants": [
+        "employment"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "就业"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "phonetic": "/ɪmˈplɔɪmənt/",
+      "example": "The project created new employment opportunities.",
+      "translation": "这个项目创造了新的就业机会。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "legislation",
+      "word": "legislation",
+      "variants": [
+        "legislation"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "法律；立法"
+      ],
+      "chapters": [
+        "17"
+      ],
+      "phonetic": "/ˌledʒɪsˈleɪʃn/",
+      "example": "The legislation protects personal information.",
+      "translation": "这项法律保护个人信息。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "evidence",
+      "word": "evidence",
+      "variants": [
+        "evidence"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "证据"
+      ],
+      "chapters": [
+        "17"
+      ],
+      "phonetic": "/ˈevɪdəns/",
+      "example": "The report presents clear evidence.",
+      "translation": "这份报告提供了清晰的证据。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "conflict",
+      "word": "conflict",
+      "variants": [
+        "conflict"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "冲突"
+      ],
+      "chapters": [
+        "18"
+      ],
+      "phonetic": "/ˈkɒnflɪkt/",
+      "example": "Open discussion can help resolve a conflict.",
+      "translation": "公开讨论有助于解决冲突。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "defence",
+      "word": "defence",
+      "variants": [
+        "defence",
+        "defense"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "防御；辩护"
+      ],
+      "chapters": [
+        "18"
+      ],
+      "phonetic": "/dɪˈfens/",
+      "example": "The wall was built for defence.",
+      "translation": "这道墙是为了防御而建的。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "volunteer",
+      "word": "volunteer",
+      "variants": [
+        "volunteer"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "志愿者"
+      ],
+      "chapters": [
+        "19"
+      ],
+      "phonetic": "/ˌvɒlənˈtɪə(r)/",
+      "example": "A volunteer showed us around the library.",
+      "translation": "一位志愿者带我们参观了图书馆。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "colleague",
+      "word": "colleague",
+      "variants": [
+        "colleague"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "同事"
+      ],
+      "chapters": [
+        "19"
+      ],
+      "phonetic": "/ˈkɒliːɡ/",
+      "example": "My colleague shared a useful idea.",
+      "translation": "我的同事分享了一个有用的想法。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "adapt",
+      "word": "adapt",
+      "variants": [
+        "adapt"
+      ],
+      "pos": "v.",
+      "meanings": [
+        "适应；改编"
+      ],
+      "chapters": [
+        "20"
+      ],
+      "phonetic": "/əˈdæpt/",
+      "example": "Students need time to adapt to a new routine.",
+      "translation": "学生需要时间适应新的日常安排。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "participate",
+      "word": "participate",
+      "variants": [
+        "participate"
+      ],
+      "pos": "v.",
+      "meanings": [
+        "参与"
+      ],
+      "chapters": [
+        "20"
+      ],
+      "phonetic": "/pɑːˈtɪsɪpeɪt/",
+      "example": "Everyone is welcome to participate.",
+      "translation": "欢迎每个人参与。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "anxiety",
+      "word": "anxiety",
+      "variants": [
+        "anxiety"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "焦虑"
+      ],
+      "chapters": [
+        "21"
+      ],
+      "phonetic": "/æŋˈzaɪəti/",
+      "example": "A short walk helped ease my anxiety.",
+      "translation": "短暂的散步帮助缓解了我的焦虑。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "wellbeing",
+      "word": "wellbeing",
+      "variants": [
+        "wellbeing"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "身心健康；幸福"
+      ],
+      "chapters": [
+        "21"
+      ],
+      "phonetic": "/ˌwelˈbiːɪŋ/",
+      "example": "Sleep is important for our wellbeing.",
+      "translation": "睡眠对我们的身心健康很重要。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "duration",
+      "word": "duration",
+      "variants": [
+        "duration"
+      ],
+      "pos": "n.",
+      "meanings": [
+        "持续时间"
+      ],
+      "chapters": [
+        "22"
+      ],
+      "phonetic": "/djuˈreɪʃn/",
+      "example": "The duration of the lesson is one hour.",
+      "translation": "这节课的持续时间是一小时。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    },
+    {
+      "id": "annual",
+      "word": "annual",
+      "variants": [
+        "annual"
+      ],
+      "pos": "adj.",
+      "meanings": [
+        "每年的；年度的"
+      ],
+      "chapters": [
+        "22"
+      ],
+      "phonetic": "/ˈænjuəl/",
+      "example": "The club holds an annual meeting.",
+      "translation": "俱乐部每年举行一次会议。",
+      "memory": "",
+      "usage": "",
+      "source": "本项目自编学习示例"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+node_modules/
+dist/
+build/
+
+# Credentials and local environment (keep sanitized examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.npmrc
+
+# Local backups, test output, logs and caches
+.backup-local/
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.temp
+*.log
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system caches
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+docs/qa/
+
+# Required vocabulary sources belong in this PRIVATE backup repository.
+# Do not publish them or change repository visibility without reviewing rights.
+
+data/private/
+data/vocabulary.local.json
+data/vocabulary.json
+.openai/

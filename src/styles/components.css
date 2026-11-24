@@ -1,0 +1,205 @@
+/* Shared controls and surfaces: one default, explicit variants. */
+.button,.text-button,.text-link { display:inline-flex; align-items:center; justify-content:center; gap:var(--space-2); min-height:var(--control-height); padding:var(--space-2) var(--space-4); border:1px solid transparent; border-radius:var(--radius-small); font-size:var(--font-size-secondary); font-weight:var(--font-weight-medium); line-height:var(--line-height-compact); white-space:nowrap; }
+.button.primary { color:var(--color-on-brand); background:var(--color-brand-primary); border-color:var(--color-brand-primary); box-shadow:var(--elevation-1); }
+.button.primary:hover:not(:disabled) { background:var(--color-brand-hover); border-color:var(--color-brand-hover); }
+.button.primary:active:not(:disabled) { background:var(--color-brand-active); }
+.button.secondary { background:var(--color-bg-surface); border-color:var(--color-border-default); }
+.button.secondary:hover:not(:disabled) { background:var(--color-bg-hover); border-color:var(--color-border-hover); color:var(--color-text-primary); }
+.text-button,.text-link,.button.text-link { color:var(--color-brand-primary); background:none; border-color:transparent; padding:var(--space-2); }
+.text-button:hover,.text-link:hover { color:var(--color-brand-hover); background:var(--color-bg-subtle); }
+.icon-button,.round-sound { display:inline-grid; place-items:center; flex-shrink:0; width:var(--control-icon-size); height:var(--control-icon-size); padding:0; color:var(--color-text-secondary); border:1px solid transparent; border-radius:var(--radius-small); }
+.icon-button:hover,.round-sound:hover { color:var(--color-brand-primary); background:var(--color-bg-subtle); }
+.search-box { display:flex; align-items:center; gap:var(--space-2); min-width:0; min-height:var(--control-height); padding:0 var(--space-3); background:var(--color-bg-surface); border:1px solid var(--color-border-default); border-radius:var(--radius-small); color:var(--color-text-secondary); }
+.search-box:focus-within { border-color:var(--color-focus-ring); box-shadow:0 0 0 3px var(--color-focus-halo); }
+.search-box input { width:100%; min-width:0; border:0; outline:0; padding:var(--space-2) 0; background:none; font-size:var(--font-size-body); }
+.filter-tabs { display:flex; align-items:center; gap:var(--space-1); min-height:var(--control-height); padding:var(--space-1); border:1px solid var(--color-border-default); border-radius:var(--radius-small); background:var(--color-bg-subtle); }
+.filter-tabs button { padding:var(--space-1) var(--space-3); min-height:34px; border:1px solid transparent; border-radius:var(--radius-small); color:var(--color-text-secondary); font-size:var(--font-size-secondary); white-space:nowrap; }
+.filter-tabs button.active { background:var(--color-bg-surface); border-color:var(--color-border-default); color:var(--color-brand-hover); box-shadow:var(--elevation-1); }
+.filter-tabs button:hover:not(.active) { color:var(--color-text-primary); }
+.progress-track { height:4px; overflow:hidden; border-radius:var(--radius-pill); background:var(--color-bg-selected); }
+.progress-track>span { display:block; height:100%; border-radius:inherit; background:var(--color-brand-primary); }
+.daily-goal { min-width:0; display:grid; grid-template-columns:1fr auto; align-items:center; gap:var(--space-1) var(--space-3); border-left:1px solid var(--color-border-default); padding-left:var(--space-6); font-variant-numeric:tabular-nums; }
+.goal-top { display:contents; }
+.goal-top>span { grid-column:1; grid-row:1; font-size:var(--font-size-secondary); }
+.goal-top .text-link { grid-column:2; grid-row:2; justify-self:end; min-height:32px; padding:var(--space-1) 0 var(--space-1) var(--space-2); font-size:var(--font-size-caption); }
+.goal-summary { grid-column:2; grid-row:1; display:flex; align-items:baseline; justify-content:flex-end; gap:var(--space-1); }
+.goal-summary>strong { color:var(--color-text-primary); font-size:var(--font-size-number); font-weight:var(--font-weight-medium); line-height:var(--line-height-heading); }
+.goal-summary>span { color:var(--color-text-secondary); font-size:var(--font-size-caption); }
+.goal-progress { grid-column:1; grid-row:2; }
+.goal-complete .goal-progress>span { background:var(--color-success); }
+.daily-goal.compact { padding:var(--space-5); border:1px solid var(--color-border-default); border-radius:var(--radius-medium); background:var(--surface-overview); }
+#resume-slot:empty { display:none; }
+.resume-banner { display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:var(--space-4); align-items:center; margin-top:var(--space-5); border-top:1px solid var(--color-border-default); padding-top:var(--space-4); }
+.resume-copy { display:flex; align-items:center; flex-wrap:wrap; gap:var(--space-1) var(--space-3); font-size:var(--font-size-secondary); }
+.resume-copy>strong { color:var(--color-text-primary); font-weight:var(--font-weight-medium); }
+.resume-meta { display:flex; flex-wrap:wrap; gap:var(--space-1) var(--space-3); color:var(--color-text-secondary); font-size:var(--font-size-caption); }
+.resume-progress { display:flex; align-items:center; flex-wrap:wrap; gap:var(--space-2); font-size:var(--font-size-caption); color:var(--color-text-secondary); font-variant-numeric:tabular-nums; }
+.resume-progress>span { white-space:nowrap; }
+.resume-meter { width:96px; height:3px; }
+.resume-banner>.text-link { padding-right:0; }
+.word-card { position:relative; min-width:0; min-height:184px; display:flex; flex-direction:column; padding:var(--space-5); border:1px solid var(--color-border-default); border-radius:var(--radius-medium); background:var(--color-bg-surface); box-shadow:var(--elevation-1); }
+.word-card:focus-within { z-index:1; border-color:var(--color-border-hover); box-shadow:var(--elevation-2); transform:translateY(calc(var(--motion-lift-distance) / 2)); }
+.word-card:has(.word-link:focus-visible) { outline:2px solid var(--color-focus-ring); outline-offset:3px; }
+.word-headline { display:flex; justify-content:space-between; align-items:flex-start; gap:var(--space-2); }
+.word-title { flex:1; min-width:0; padding:var(--space-1) 0 0; font-size:var(--font-size-word); font-weight:var(--font-weight-medium); letter-spacing:var(--letter-spacing-word); overflow-wrap:anywhere; }
+.word-link { padding:0; text-align:left; font:inherit; color:inherit; letter-spacing:inherit; overflow-wrap:anywhere; }
+.word-link::after { content:""; position:absolute; inset:0; z-index:1; border-radius:var(--radius-medium); }
+.word-link:focus-visible { outline:none; }
+.bookmark-button,.pronounce-button { position:relative; z-index:2; }
+.bookmark-button { margin-right:calc(-1 * var(--space-2)); }
+.bookmark-button .icon { width:16px; height:16px; }
+.saved { color:var(--color-brand-primary); }
+.saved .icon { fill:var(--color-bg-selected); stroke:var(--color-brand-primary); }
+.word-meta { display:flex; align-items:center; flex-wrap:wrap; gap:var(--space-2); margin-top:var(--space-1); min-height:var(--control-icon-size); }
+.phonetic { color:var(--color-text-secondary); font:var(--font-size-secondary)/var(--line-height-compact) var(--font-family-phonetic); overflow-wrap:anywhere; }
+.pos { color:var(--color-text-secondary); font-size:var(--font-size-secondary); }
+.pronounce-button { margin-left:auto; margin-right:calc(-1 * var(--space-2)); }
+.is-speaking { color:var(--color-brand-primary)!important; background:var(--color-bg-selected)!important; }
+.card-definition { flex:1; margin:var(--space-3) 0 0; color:var(--color-text-body); font-size:var(--font-size-meaning); line-height:var(--line-height-body); overflow-wrap:anywhere; }
+.card-record { display:flex; align-items:center; justify-content:space-between; gap:var(--space-2); margin-top:var(--space-3); color:var(--color-text-secondary); font-size:var(--font-size-caption); }
+.card-record:empty { display:none; }
+.word-status.practiced { color:var(--color-success); }
+.mistake-footer { display:flex; align-items:center; flex-wrap:wrap; justify-content:space-between; gap:var(--space-2); margin-top:var(--space-3); padding-top:var(--space-2); border-top:1px solid var(--color-border-default); color:var(--color-text-secondary); font-size:var(--font-size-caption); }
+.mistake-footer button { position:relative; z-index:2; min-height:var(--control-icon-size); color:var(--color-brand-primary); }
+.empty-state { grid-column:1/-1; padding:var(--space-10) var(--space-6); text-align:center; background:var(--color-bg-surface); border:1px solid var(--color-border-default); border-radius:var(--radius-medium); }
+.empty-state :is(h2,h3) { font-size:var(--font-size-module); }
+.empty-state p { color:var(--color-text-secondary); margin-top:var(--space-3); }
+.empty-state>.button { margin-top:var(--space-6); }
+.modal { width:min(700px,calc(100vw - 32px)); max-width:calc(100vw - 32px); max-height:calc(100dvh - 48px); margin:auto; padding:var(--space-8); overflow:auto; background:var(--color-bg-surface); border:1px solid var(--color-border-default); border-radius:var(--radius-large); box-shadow:var(--elevation-3); color:var(--color-text-body); }
+.modal::backdrop { background:var(--color-overlay); }
+.modal-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:var(--space-4); margin-bottom:var(--space-5); }
+.modal-heading h2 { font-size:var(--font-size-section); padding-top:var(--space-1); }
+.modal-intro { color:var(--color-text-secondary); margin:var(--space-4) 0 var(--space-6); }
+.modal-actions { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:var(--space-2); padding-top:var(--space-5); margin-top:var(--space-5); border-top:1px solid var(--color-border-default); }
+.modal-actions>.muted { margin-right:auto; font-size:var(--font-size-secondary); }
+.small-modal { width:540px; }
+.storage-warning { margin:var(--space-4) var(--page-gutter) 0; padding:var(--space-3) var(--space-4); background:var(--color-warning-soft); color:var(--color-warning); border-radius:var(--radius-small); }
+.dialog-toast { display:none; position:sticky; bottom:0; margin-top:var(--space-4); padding:var(--space-3) var(--space-4); background:var(--color-text-primary); color:var(--color-on-brand); border-radius:var(--radius-small); font-size:var(--font-size-secondary); }
+.dialog-toast.show { display:block; }
+#toast { position:fixed; z-index:100; bottom:var(--space-6); left:calc(50% + var(--sidebar-width)/2); max-width:min(560px,calc(100vw - 32px)); padding:var(--space-3) var(--space-5); border-radius:var(--radius-small); background:var(--color-text-primary); color:var(--color-on-brand); box-shadow:var(--elevation-2); opacity:0; pointer-events:none; transform:translate(-50%,var(--space-3)); font-size:var(--font-size-secondary); }
+#toast.show { opacity:1; transform:translate(-50%,0); }
+.boot { max-width:1100px; margin:0 auto; padding:var(--space-12) var(--space-6); }
+.boot-brand { margin-bottom:var(--space-8); font-size:var(--font-size-page); color:var(--color-text-primary); }
+.boot-brand small { display:block; color:var(--color-text-secondary); }
+.skeleton-hero { height:120px; background:var(--color-bg-subtle); border:1px solid var(--color-border-default); border-radius:var(--radius-large); }
+.skeleton-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--space-4); margin:var(--space-6) 0; }
+.skeleton-card { height:184px; background:var(--color-bg-surface); border:1px solid var(--color-border-default); border-radius:var(--radius-medium); }
+.skeleton-card::after { content:""; display:block; height:var(--space-3); width:55%; margin:var(--space-12) var(--space-6); border-radius:var(--radius-small); background:var(--color-bg-subtle); }
+@media(hover:hover) and (pointer:fine) {
+ .word-card:hover { z-index:1; transform:translateY(var(--motion-lift-distance)); box-shadow:var(--elevation-2); border-color:var(--color-border-hover); background:var(--color-bg-hover); }
+}
+@media(max-width:1200px) { .resume-banner { grid-template-columns:minmax(0,1fr) auto; gap:var(--space-2) var(--space-4); } .resume-progress { grid-column:1; } .resume-banner>.text-link { grid-column:2; grid-row:1/3; } }
+@media(max-width:900px) { #toast { left:50%; } }
+@media(max-width:640px) {
+ .daily-goal { border-left:0; padding:0; }
+ .daily-goal.compact { padding:var(--space-5); }
+ .filter-tabs button { min-height:var(--control-icon-size); padding:var(--space-1) var(--space-2); }
+ .word-card { min-height:180px; padding:var(--space-5); }
+ .resume-banner { margin-top:var(--space-4); padding-top:var(--space-3); }
+ .resume-copy { gap:var(--space-1); }
+ .resume-meta { gap:var(--space-1) var(--space-2); }
+ .resume-progress { display:block; }
+ .resume-meter { width:100%; margin-top:var(--space-2); }
+ .modal { padding:var(--space-6) var(--space-5); max-height:calc(100dvh - 32px); }
+ .modal-actions>.muted { flex-basis:100%; }
+ .skeleton-grid { grid-template-columns:1fr; }
+ .skeleton-card:not(:first-child) { display:none; }
+}
+
+/* Homepage-only surfaces, type and word-card structure. */
+.vocabulary-home .daily-goal { grid-template-columns:minmax(0,1fr) auto; gap:var(--space-2) var(--space-3); padding:var(--space-4) var(--space-5); border:1px solid var(--home-border-subtle); border-radius:var(--home-radius-card); background:var(--home-surface-overview); box-shadow:var(--home-shadow-overview); -webkit-backdrop-filter:blur(var(--home-glass-blur)); backdrop-filter:blur(var(--home-glass-blur)); }
+.vocabulary-home .goal-top>span { grid-column:1; grid-row:1; font-size:var(--home-font-secondary); font-weight:var(--font-weight-medium); }
+.vocabulary-home .goal-top .text-link { grid-column:2; grid-row:1; min-height:32px; padding:var(--space-1) 0 var(--space-1) var(--space-2); font-size:var(--home-font-caption); }
+.vocabulary-home .goal-summary { grid-column:1/-1; grid-row:2; justify-content:flex-start; gap:6px; }
+.vocabulary-home .goal-summary>strong { font-size:var(--home-font-goal); font-weight:var(--font-weight-medium); letter-spacing:-.8px; }
+.vocabulary-home .goal-summary>span { font-size:var(--home-font-caption); }
+.vocabulary-home .goal-caption { margin-right:var(--space-1); }
+.vocabulary-home .goal-progress { grid-column:1/-1; grid-row:3; height:5px; background:var(--home-divider); }
+.vocabulary-home .goal-progress>span { transform-origin:left; }
+.vocabulary-home .search-box { background:var(--home-surface-subtle); border-color:var(--home-border-glass); border-radius:var(--home-radius-control); box-shadow:var(--home-shadow-control); }
+.vocabulary-home .search-box:hover:not(:focus-within) { background:var(--home-surface-selected); }
+.vocabulary-home .search-box input { font-size:var(--home-font-secondary); }
+.vocabulary-home .search-box:focus-within { background:var(--home-surface-raised); border-color:var(--home-focus-border); box-shadow:0 0 0 3px var(--home-focus-halo); }
+.vocabulary-home .button.secondary { background:var(--home-surface-soft); border-color:var(--home-border-subtle); box-shadow:var(--home-shadow-soft); }
+.vocabulary-home .button.secondary:hover:not(:disabled) { background:var(--home-surface-hover); border-color:var(--home-border-subtle); }
+.vocabulary-home .button.secondary:active:not(:disabled) { background:var(--home-surface-control-selected); box-shadow:none; }
+.vocabulary-home .button.primary { background:var(--home-surface-primary) var(--color-brand-primary); border-color:var(--home-border); box-shadow:var(--home-shadow-primary); }
+.vocabulary-home .button.primary:hover:not(:disabled) { background:var(--home-surface-primary) var(--color-brand-hover); border-color:var(--home-border); }
+.vocabulary-home .button.primary:active:not(:disabled) { background:var(--home-surface-primary) var(--color-brand-active); box-shadow:var(--home-shadow-control); }
+.vocabulary-home .filter-tabs { gap:var(--space-1); padding:0; border:0; background:none; min-height:var(--control-height); }
+.vocabulary-home .filter-tabs button { min-height:var(--control-height); padding:var(--space-2) var(--space-3); font-size:var(--home-font-caption); }
+.vocabulary-home .filter-tabs button.active { background:var(--home-surface-control-selected); border-color:var(--home-border); box-shadow:none; color:var(--color-brand-hover); font-weight:var(--font-weight-medium); }
+.vocabulary-home .filter-tabs button:hover:not(.active) { background:var(--home-surface-subtle); }
+.vocabulary-home .resume-banner { border-top-color:var(--home-divider); }
+.vocabulary-home .empty-state { background:var(--home-surface-subtle); border-color:var(--home-border-subtle); box-shadow:none; }
+.vocabulary-page .word-card { min-height:194px; padding:var(--space-5); border-color:var(--home-border); border-radius:var(--home-radius-card); background:var(--home-surface-raised); box-shadow:var(--home-shadow-card); transition:transform var(--home-motion-duration) var(--motion-easing-emphasized),box-shadow var(--home-motion-duration) var(--motion-easing-emphasized),border-color var(--motion-duration-fast),background-color var(--motion-duration-fast); }
+.vocabulary-page .word-card-body { display:grid; grid-template-columns:minmax(0,1fr) var(--control-icon-size); align-items:start; gap:var(--space-3); }
+.vocabulary-page .word-heading { min-width:0; padding-top:var(--space-1); }
+.vocabulary-page .word-title { padding:0; font-size:var(--home-font-word); line-height:var(--home-line-height-word); letter-spacing:-.6px; }
+.vocabulary-page .word-link { max-width:100%; }
+.vocabulary-page .word-link::after { border-radius:var(--home-radius-card); }
+.vocabulary-page .word-meta { min-height:0; margin-top:var(--space-2); gap:var(--space-2); align-items:baseline; }
+.vocabulary-page :is(.phonetic,.pos) { color:var(--home-text-secondary); font-size:var(--home-font-secondary); line-height:1.5; }
+.vocabulary-page .phonetic+.pos { padding-left:var(--space-2); border-left:1px solid var(--home-divider); }
+.vocabulary-page .word-actions { position:relative; z-index:2; display:grid; gap:var(--space-1); }
+.vocabulary-page :is(.bookmark-button,.pronounce-button) { margin:0; width:var(--control-icon-size); height:var(--control-icon-size); border-radius:var(--home-radius-control); }
+.vocabulary-page .bookmark-button { color:var(--home-text-secondary); }
+.vocabulary-page :is(.bookmark-button,.pronounce-button) .icon { width:var(--icon-size); height:var(--icon-size); }
+.vocabulary-page .pronounce-button { color:var(--color-brand-primary); background:var(--home-surface-subtle); border-color:var(--home-divider); }
+.vocabulary-page .bookmark-button:hover { color:var(--color-brand-primary); background:var(--home-surface-subtle); }
+.vocabulary-page .bookmark-button.saved { color:var(--color-brand-primary); }
+.vocabulary-page .pronounce-button:hover { border-color:var(--home-border-hover); background:var(--home-surface-selected); }
+.vocabulary-page .word-translation { flex:1; margin-top:var(--space-3); padding-top:var(--space-3); border-top:1px solid var(--home-divider); }
+.vocabulary-page .card-definition { margin:0; font-size:var(--home-font-meaning); line-height:1.7; color:var(--home-text-body); }
+.vocabulary-page .card-record { font-size:var(--home-font-caption); }
+.vocabulary-page .word-card:focus-within { border-color:var(--home-border-hover); box-shadow:var(--home-shadow-lift); transform:translateY(var(--home-motion-focus)); }
+.vocabulary-page .word-card:has(.word-link:focus-visible) { outline:2px solid var(--color-focus-ring); outline-offset:3px; }
+@media(hover:hover) and (pointer:fine) {
+ .vocabulary-page .word-card:hover { border-color:var(--home-border-hover); background:var(--home-surface-hover); box-shadow:var(--home-shadow-lift); transform:translateY(var(--home-motion-lift)); }
+}
+@media(max-width:640px) {
+ .vocabulary-home .daily-goal { padding:var(--space-3) var(--space-4); gap:var(--space-1) var(--space-3); }
+ .vocabulary-home .goal-top>span { grid-row:1; }
+ .vocabulary-home .goal-top .text-link { grid-column:2; grid-row:2; min-height:36px; }
+ .vocabulary-home .goal-summary { grid-column:2; grid-row:1; justify-content:flex-end; }
+ .vocabulary-home .goal-summary>strong { font-size:var(--home-font-goal-mobile); }
+ .vocabulary-home .goal-summary .goal-caption { display:none; }
+ .vocabulary-home .goal-progress { grid-column:1; grid-row:2; }
+ .vocabulary-page .word-card { min-height:194px; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .vocabulary-page .word-card:is(:hover,:focus-within) { transform:none; }
+}
+
+/* Light controls shared by the library and daily content, without changing study flows. */
+.vocabulary-home.vocabulary-page .button:is(.primary,.secondary),
+.daily-plan-page.vocabulary-page .button:is(.primary,.secondary) {
+ min-height:40px; padding:var(--space-2) var(--space-4); border-radius:var(--radius-medium);
+ font-size:var(--font-size-body); font-weight:var(--font-weight-regular); border-color:transparent; box-shadow:none;
+ transition:background-color var(--home-motion-duration) var(--home-motion-enter-easing),color var(--home-motion-duration) var(--home-motion-enter-easing);
+}
+.vocabulary-page .filter-tabs {
+ position:relative; isolation:isolate; display:grid; grid-template-columns:repeat(var(--filter-count),minmax(0,1fr));
+ width:fit-content; gap:0; padding:4px; min-height:44px;
+ border:1px solid var(--home-border-subtle); border-radius:var(--radius-pill); background:var(--home-surface-control-selected);
+}
+.vocabulary-page .filter-highlight {
+ position:absolute; z-index:-1; left:4px; top:4px; bottom:4px; width:calc((100% - 8px) / var(--filter-count));
+ border:1px solid var(--home-border-glass); border-radius:var(--radius-pill); background:var(--home-surface-hover);
+ backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); box-shadow:var(--elevation-1);
+ transform:translateX(calc(var(--filter-index) * 100%));
+ transition:transform var(--motion-duration-slow) var(--home-motion-enter-easing);
+ pointer-events:none;
+}
+.vocabulary-page .filter-tabs button {
+ min-width:88px; min-height:36px; padding:var(--space-1) var(--space-3); border:0;
+ border-radius:var(--radius-pill); background:none; box-shadow:none; font-size:var(--font-size-body); font-weight:var(--font-weight-regular);
+}
+.vocabulary-page .filter-tabs button.active { color:var(--color-brand-active); background:none; box-shadow:none; border:0; font-weight:var(--font-weight-medium); }
+.vocabulary-page .filter-tabs button:hover:not(.active) { color:var(--color-brand-hover); background:none; }
+@media(max-width:640px) {
+ .vocabulary-page .filter-tabs { max-width:100%; }
+ .vocabulary-page .filter-tabs button { min-width:0; min-height:40px; padding:var(--space-1) var(--space-3); }
+ .vocabulary-home.vocabulary-page .button:is(.primary,.secondary),.daily-plan-page.vocabulary-page .button:is(.primary,.secondary) { min-height:44px; }
+}
+@media(prefers-reduced-motion:reduce) { .vocabulary-page .filter-highlight { transition:none; } }

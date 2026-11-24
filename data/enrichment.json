@@ -1,0 +1,326 @@
+{
+  "atmosphere": {
+    "phonetic": "/ˈætməsfɪə(r)/",
+    "example": "A calm atmosphere helps me concentrate.",
+    "translation": "安静的氛围有助于我集中注意力。",
+    "memory": "搭配记忆：a relaxed atmosphere，轻松的氛围。"
+  },
+  "hydrosphere": {
+    "phonetic": "/ˈhaɪdrəsfɪə(r)/",
+    "example": "Oceans form a large part of the hydrosphere.",
+    "translation": "海洋构成了水圈的很大一部分。",
+    "memory": "联想记忆：把地球上的海洋、河流和湖泊想成一个整体。"
+  },
+  "lithosphere": {
+    "phonetic": "/ˈlɪθəsfɪə(r)/",
+    "example": "The lithosphere is the rigid outer part of the Earth.",
+    "translation": "岩石圈是地球坚硬的外层部分。",
+    "memory": "对比记忆：lithosphere 岩石圈；hydrosphere 水圈。"
+  },
+  "oxygen": {
+    "phonetic": "/ˈɒksɪdʒən/",
+    "example": "Fish need oxygen dissolved in water.",
+    "translation": "鱼需要溶解在水中的氧气。",
+    "memory": "场景记忆：呼吸、潜水与氧气瓶。"
+  },
+  "oxide": {
+    "phonetic": "/ˈɒksaɪd/",
+    "example": "The experiment produced a metal oxide.",
+    "translation": "实验产生了一种金属氧化物。",
+    "memory": "搭配记忆：metal oxide，金属氧化物。"
+  },
+  "carbon dioxide": {
+    "phonetic": "/ˌkɑːbən daɪˈɒksaɪd/",
+    "example": "Trees absorb carbon dioxide as they grow.",
+    "translation": "树木在生长过程中吸收二氧化碳。",
+    "memory": "搭配记忆：carbon dioxide emissions，二氧化碳排放。"
+  },
+  "hydrogen": {
+    "phonetic": "/ˈhaɪdrədʒən/",
+    "example": "Hydrogen can be used as a fuel.",
+    "translation": "氢可以用作燃料。",
+    "memory": ""
+  },
+  "core": {
+    "phonetic": "/kɔː(r)/",
+    "example": "Practice is at the core of this course.",
+    "translation": "练习是这门课程的核心。",
+    "memory": ""
+  },
+  "crust": {
+    "phonetic": "/krʌst/",
+    "example": "The crust is the outermost layer of the Earth.",
+    "translation": "地壳是地球最外面的一层。",
+    "memory": ""
+  },
+  "mantle": {
+    "phonetic": "/ˈmæntl/",
+    "example": "The mantle lies beneath the crust.",
+    "translation": "地幔位于地壳之下。",
+    "memory": ""
+  },
+  "longitude": {
+    "phonetic": "/ˈlɒŋɡɪtjuːd/",
+    "example": "The map shows both latitude and longitude.",
+    "translation": "地图同时标出了纬度和经度。",
+    "memory": ""
+  },
+  "latitude": {
+    "phonetic": "/ˈlætɪtjuːd/",
+    "example": "Day length changes with latitude.",
+    "translation": "白昼长度随纬度而变化。",
+    "memory": ""
+  },
+  "seed": {
+    "phonetic": "/siːd/",
+    "example": "We planted a seed in a small pot.",
+    "translation": "我们在一个小花盆里种下一粒种子。",
+    "memory": ""
+  },
+  "habitat": {
+    "phonetic": "/ˈhæbɪtæt/",
+    "example": "The wetland provides a habitat for many plants.",
+    "translation": "这片湿地为许多植物提供了生境。",
+    "memory": ""
+  },
+  "wildlife": {
+    "phonetic": "/ˈwaɪldlaɪf/",
+    "example": "Noise can disturb local wildlife.",
+    "translation": "噪声会干扰当地的野生动物。",
+    "memory": ""
+  },
+  "species": {
+    "phonetic": "/ˈspiːʃiːz/",
+    "example": "This island is home to several rare species.",
+    "translation": "这座岛屿是几种珍稀物种的家园。",
+    "memory": ""
+  },
+  "orbit": {
+    "phonetic": "/ˈɔːbɪt/",
+    "example": "The satellite entered a stable orbit.",
+    "translation": "卫星进入了一条稳定的轨道。",
+    "memory": ""
+  },
+  "planet": {
+    "phonetic": "/ˈplænɪt/",
+    "example": "The team is studying a distant planet.",
+    "translation": "团队正在研究一颗遥远的行星。",
+    "memory": ""
+  },
+  "curriculum": {
+    "phonetic": "/kəˈrɪkjələm/",
+    "example": "The new curriculum includes practical projects.",
+    "translation": "新的课程体系包含实践项目。",
+    "memory": ""
+  },
+  "scholarship": {
+    "phonetic": "/ˈskɒləʃɪp/",
+    "example": "She applied for a scholarship to study abroad.",
+    "translation": "她申请了出国留学的奖学金。",
+    "memory": ""
+  },
+  "innovation": {
+    "phonetic": "/ˌɪnəˈveɪʃn/",
+    "example": "Innovation often begins with a simple question.",
+    "translation": "创新常常始于一个简单的问题。",
+    "memory": ""
+  },
+  "device": {
+    "phonetic": "/dɪˈvaɪs/",
+    "example": "This device measures air quality.",
+    "translation": "这个设备测量空气质量。",
+    "memory": ""
+  },
+  "heritage": {
+    "phonetic": "/ˈherɪtɪdʒ/",
+    "example": "The museum protects the cultural heritage of the city.",
+    "translation": "博物馆保护这座城市的文化遗产。",
+    "memory": ""
+  },
+  "tradition": {
+    "phonetic": "/trəˈdɪʃn/",
+    "example": "Sharing a meal is an important family tradition.",
+    "translation": "一起吃饭是一项重要的家庭传统。",
+    "memory": ""
+  },
+  "dialect": {
+    "phonetic": "/ˈdaɪəlekt/",
+    "example": "My grandparents speak a local dialect.",
+    "translation": "我的祖父母说一种当地方言。",
+    "memory": ""
+  },
+  "fluent": {
+    "phonetic": "/ˈfluːənt/",
+    "example": "Regular conversation helped her become fluent.",
+    "translation": "经常对话帮助她说得更加流利。",
+    "memory": ""
+  },
+  "athlete": {
+    "phonetic": "/ˈæθliːt/",
+    "example": "The athlete trains before breakfast.",
+    "translation": "这位运动员在早餐前训练。",
+    "memory": ""
+  },
+  "leisure": {
+    "phonetic": "/ˈleʒə(r)/",
+    "example": "I enjoy reading in my leisure time.",
+    "translation": "我喜欢在闲暇时阅读。",
+    "memory": ""
+  },
+  "fabric": {
+    "phonetic": "/ˈfæbrɪk/",
+    "example": "This fabric dries quickly.",
+    "translation": "这种布料干得很快。",
+    "memory": ""
+  },
+  "durable": {
+    "phonetic": "/ˈdjʊərəbl/",
+    "example": "We need a durable material for the roof.",
+    "translation": "我们需要一种耐用的屋顶材料。",
+    "memory": ""
+  },
+  "garment": {
+    "phonetic": "/ˈɡɑːmənt/",
+    "example": "Each garment is made from recycled cotton.",
+    "translation": "每件服装都由再生棉制成。",
+    "memory": ""
+  },
+  "trend": {
+    "phonetic": "/trend/",
+    "example": "The survey revealed a new consumer trend.",
+    "translation": "调查揭示了一种新的消费趋势。",
+    "memory": ""
+  },
+  "nutrition": {
+    "phonetic": "/njuˈtrɪʃn/",
+    "example": "Good nutrition supports healthy growth.",
+    "translation": "良好的营养有助于健康成长。",
+    "memory": ""
+  },
+  "ingredient": {
+    "phonetic": "/ɪnˈɡriːdiənt/",
+    "example": "Beans are the main ingredient in this dish.",
+    "translation": "豆子是这道菜的主要原料。",
+    "memory": ""
+  },
+  "architecture": {
+    "phonetic": "/ˈɑːkɪtektʃə(r)/",
+    "example": "The city is known for its modern architecture.",
+    "translation": "这座城市以现代建筑风格闻名。",
+    "memory": ""
+  },
+  "residence": {
+    "phonetic": "/ˈrezɪdəns/",
+    "example": "The old school became a private residence.",
+    "translation": "这所旧学校变成了一处私人住宅。",
+    "memory": ""
+  },
+  "commute": {
+    "phonetic": "/kəˈmjuːt/",
+    "example": "Many people commute by train.",
+    "translation": "许多人乘火车通勤。",
+    "memory": ""
+  },
+  "destination": {
+    "phonetic": "/ˌdestɪˈneɪʃn/",
+    "example": "We reached our destination before sunset.",
+    "translation": "我们在日落前到达了目的地。",
+    "memory": ""
+  },
+  "policy": {
+    "phonetic": "/ˈpɒləsi/",
+    "example": "The policy aims to reduce waste.",
+    "translation": "这项政策旨在减少浪费。",
+    "memory": ""
+  },
+  "citizen": {
+    "phonetic": "/ˈsɪtɪzn/",
+    "example": "Every citizen can take part in the discussion.",
+    "translation": "每位公民都可以参与讨论。",
+    "memory": ""
+  },
+  "investment": {
+    "phonetic": "/ɪnˈvestmənt/",
+    "example": "The town needs more investment in public transport.",
+    "translation": "这个城镇需要更多公共交通投资。",
+    "memory": ""
+  },
+  "employment": {
+    "phonetic": "/ɪmˈplɔɪmənt/",
+    "example": "The project created new employment opportunities.",
+    "translation": "这个项目创造了新的就业机会。",
+    "memory": ""
+  },
+  "legislation": {
+    "phonetic": "/ˌledʒɪsˈleɪʃn/",
+    "example": "The legislation protects personal information.",
+    "translation": "这项法律保护个人信息。",
+    "memory": ""
+  },
+  "evidence": {
+    "phonetic": "/ˈevɪdəns/",
+    "example": "The report presents clear evidence.",
+    "translation": "这份报告提供了清晰的证据。",
+    "memory": ""
+  },
+  "conflict": {
+    "phonetic": "/ˈkɒnflɪkt/",
+    "example": "Open discussion can help resolve a conflict.",
+    "translation": "公开讨论有助于解决冲突。",
+    "memory": ""
+  },
+  "defence": {
+    "phonetic": "/dɪˈfens/",
+    "example": "The wall was built for defence.",
+    "translation": "这道墙是为了防御而建的。",
+    "memory": ""
+  },
+  "volunteer": {
+    "phonetic": "/ˌvɒlənˈtɪə(r)/",
+    "example": "A volunteer showed us around the library.",
+    "translation": "一位志愿者带我们参观了图书馆。",
+    "memory": ""
+  },
+  "colleague": {
+    "phonetic": "/ˈkɒliːɡ/",
+    "example": "My colleague shared a useful idea.",
+    "translation": "我的同事分享了一个有用的想法。",
+    "memory": ""
+  },
+  "adapt": {
+    "phonetic": "/əˈdæpt/",
+    "example": "Students need time to adapt to a new routine.",
+    "translation": "学生需要时间适应新的日常安排。",
+    "memory": ""
+  },
+  "participate": {
+    "phonetic": "/pɑːˈtɪsɪpeɪt/",
+    "example": "Everyone is welcome to participate.",
+    "translation": "欢迎每个人参与。",
+    "memory": ""
+  },
+  "anxiety": {
+    "phonetic": "/æŋˈzaɪəti/",
+    "example": "A short walk helped ease my anxiety.",
+    "translation": "短暂的散步帮助缓解了我的焦虑。",
+    "memory": ""
+  },
+  "wellbeing": {
+    "phonetic": "/ˌwelˈbiːɪŋ/",
+    "example": "Sleep is important for our wellbeing.",
+    "translation": "睡眠对我们的身心健康很重要。",
+    "memory": ""
+  },
+  "duration": {
+    "phonetic": "/djuˈreɪʃn/",
+    "example": "The duration of the lesson is one hour.",
+    "translation": "这节课的持续时间是一小时。",
+    "memory": ""
+  },
+  "annual": {
+    "phonetic": "/ˈænjuəl/",
+    "example": "The club holds an annual meeting.",
+    "translation": "俱乐部每年举行一次会议。",
+    "memory": ""
+  }
+}

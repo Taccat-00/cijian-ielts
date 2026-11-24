@@ -1,0 +1,25 @@
+{
+  "name": "cijian-ielts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "词间：个人雅思词汇学习与练习工具",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "import:vocabulary": "node scripts/import-vocabulary.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ts-fsrs": "5.2.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Taccat-00/cijian-ielts-open-source.git"
+  }
+}

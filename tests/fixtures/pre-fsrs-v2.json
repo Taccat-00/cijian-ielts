@@ -1,0 +1,425 @@
+{
+  "version": 2,
+  "goal": 2,
+  "saved": [
+    "w"
+  ],
+  "mistakes": {
+    "w": {
+      "count": 2,
+      "lastAt": 1795262400000
+    }
+  },
+  "notes": {
+    "w": "原始笔记"
+  },
+  "daily": {
+    "2026-11-21": [
+      "x"
+    ]
+  },
+  "stats": {
+    "w": {
+      "attempts": 25,
+      "correct": 25
+    }
+  },
+  "session": null,
+  "revision": 0,
+  "srs": {
+    "algorithmVersion": 1,
+    "timeZone": "UTC",
+    "activatedAt": 1795348800000,
+    "memories": {
+      "w": {
+        "wordId": "w",
+        "status": "learning",
+        "repetition": 1,
+        "intervalDays": 1,
+        "lastReviewedAt": 1795348800024,
+        "nextReviewAt": "2026-11-23",
+        "lapseCount": 0,
+        "introducedAt": null,
+        "origin": "legacy",
+        "algorithmVersion": 1,
+        "dayEvaluation": {
+          "dayKey": "2026-11-22",
+          "base": {
+            "status": "learning",
+            "repetition": 0,
+            "intervalDays": 0,
+            "nextReviewAt": "2026-11-22",
+            "lapseCount": 0
+          },
+          "firstIntroduction": false,
+          "worstGrade": "good",
+          "eventIds": [
+            "old-0:0",
+            "old-1:0",
+            "old-2:0",
+            "old-3:0",
+            "old-4:0",
+            "old-5:0",
+            "old-6:0",
+            "old-7:0",
+            "old-8:0",
+            "old-9:0",
+            "old-10:0",
+            "old-11:0",
+            "old-12:0",
+            "old-13:0",
+            "old-14:0",
+            "old-15:0",
+            "old-16:0",
+            "old-17:0",
+            "old-18:0",
+            "old-19:0",
+            "old-20:0",
+            "old-21:0",
+            "old-22:0",
+            "old-23:0",
+            "old-24:0"
+          ]
+        },
+        "learningHistory": [
+          {
+            "sessionId": "old-5",
+            "eventId": "old-5:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800005,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-6",
+            "eventId": "old-6:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800006,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-7",
+            "eventId": "old-7:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800007,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-8",
+            "eventId": "old-8:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800008,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-9",
+            "eventId": "old-9:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800009,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-10",
+            "eventId": "old-10:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800010,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-11",
+            "eventId": "old-11:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800011,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-12",
+            "eventId": "old-12:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800012,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-13",
+            "eventId": "old-13:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800013,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-14",
+            "eventId": "old-14:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800014,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-15",
+            "eventId": "old-15:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800015,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-16",
+            "eventId": "old-16:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800016,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-17",
+            "eventId": "old-17:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800017,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-18",
+            "eventId": "old-18:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800018,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-19",
+            "eventId": "old-19:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800019,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-20",
+            "eventId": "old-20:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800020,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-21",
+            "eventId": "old-21:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800021,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-22",
+            "eventId": "old-22:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800022,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-23",
+            "eventId": "old-23:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800023,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          },
+          {
+            "sessionId": "old-24",
+            "eventId": "old-24:0",
+            "questionIndex": 0,
+            "wordId": "w",
+            "type": "zh-en",
+            "source": "chapter",
+            "grade": "good",
+            "at": 1795348800024,
+            "dayKey": "2026-11-22",
+            "schedulingEffect": "observe",
+            "algorithmVersion": 1
+          }
+        ],
+        "historySummary": {
+          "count": 5,
+          "grades": {
+            "again": 0,
+            "hard": 0,
+            "good": 5
+          },
+          "firstAt": 1795348800000,
+          "lastAt": 1795348800004
+        }
+      },
+      "x": {
+        "wordId": "x",
+        "status": "learning",
+        "repetition": 0,
+        "intervalDays": 0,
+        "lastReviewedAt": null,
+        "nextReviewAt": "2026-11-22",
+        "lapseCount": 0,
+        "introducedAt": null,
+        "origin": "legacy",
+        "algorithmVersion": 1,
+        "dayEvaluation": null,
+        "learningHistory": [],
+        "historySummary": {
+          "count": 0,
+          "grades": {
+            "again": 0,
+            "hard": 0,
+            "good": 0
+          },
+          "firstAt": null,
+          "lastAt": null
+        }
+      }
+    },
+    "legacyLearnedIds": [
+      "w",
+      "x"
+    ],
+    "dailyPlans": {
+      "2026-11-22": {
+        "planId": "daily:2026-11-22",
+        "dayKey": "2026-11-22",
+        "timeZone": "UTC",
+        "generatedAt": 1795348800000,
+        "updatedAt": 1795348800000,
+        "algorithmVersion": 1,
+        "datasetRevision": "words-d9c7fb7d",
+        "goalSnapshot": 2,
+        "newWordSource": {
+          "chapterIds": [
+            "1"
+          ],
+          "mode": "ordered"
+        },
+        "items": [
+          {
+            "wordId": "x",
+            "kind": "review",
+            "state": "pending"
+          },
+          {
+            "wordId": "y",
+            "kind": "new",
+            "state": "pending"
+          }
+        ],
+        "extraItems": [],
+        "status": "ready"
+      }
+    },
+    "planSettings": {
+      "chapterIds": [
+        "1"
+      ],
+      "mode": "ordered"
+    }
+  }
+}

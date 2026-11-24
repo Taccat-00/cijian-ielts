@@ -1,0 +1,29 @@
+/* Optical enhancement adapted from xiaojiaenen/liquid-glass. Text stays outside
+   the backdrop-filter pipeline; only small homepage surfaces are lenses. */
+.vocabulary-home .daily-goal[data-liquid-glass],
+body:has(.vocabulary-home) .sidebar [data-liquid-glass] {
+ position:relative;
+ background:var(--liquid-surface);
+ border-color:transparent;
+ box-shadow:var(--liquid-shadow);
+ -webkit-backdrop-filter:var(--liquid-backdrop,blur(8px) saturate(1.12));
+ backdrop-filter:var(--liquid-backdrop,blur(8px) saturate(1.12));
+}
+body:has(.vocabulary-home) .sidebar [data-liquid-glass] { background-color:var(--liquid-navigation-tint); }
+.vocabulary-home .daily-goal[data-liquid-glass] { background-color:var(--liquid-overview-tint); }
+[data-liquid-glass]::after {
+ content:""; position:absolute; inset:0; padding:1px; border-radius:inherit; pointer-events:none;
+ background:conic-gradient(from var(--liquid-angle,225deg),transparent 0deg,var(--liquid-rim-light) 22deg,transparent 65deg,transparent 180deg,var(--liquid-rim-light) 202deg,transparent 245deg);
+ -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+ -webkit-mask-composite:xor;
+ mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+ mask-composite:exclude;
+ opacity:var(--liquid-rim-strength,.35);
+ transition:opacity var(--motion-duration-normal) var(--motion-easing-standard);
+}
+@media(max-width:900px) {
+ body:has(.vocabulary-home) .sidebar [data-liquid-glass] { -webkit-backdrop-filter:none; backdrop-filter:none; }
+}
+@media(prefers-reduced-motion:reduce) {
+ [data-liquid-glass]::after { opacity:.35; transition:none; }
+}

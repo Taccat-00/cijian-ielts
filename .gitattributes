@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Keep official vendored artifacts byte-identical on Windows as well.
+src/vendor/ts-fsrs-5.2.3.js -text
+src/vendor/ts-fsrs-LICENSE.txt -text

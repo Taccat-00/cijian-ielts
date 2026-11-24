@@ -1,0 +1,18 @@
+/* One motion scale; effects never gate content visibility. */
+button,a { transition:color var(--motion-duration-fast),background-color var(--motion-duration-fast),border-color var(--motion-duration-fast),box-shadow var(--motion-duration-normal) var(--motion-easing-standard); }
+.word-card { transition:transform var(--motion-duration-normal) var(--motion-easing-emphasized),box-shadow var(--motion-duration-normal) var(--motion-easing-emphasized),border-color var(--motion-duration-normal),background-color var(--motion-duration-normal); }
+.bookmark-button .icon { transition:fill var(--motion-duration-fast),stroke var(--motion-duration-fast); }
+.search-box { transition:border-color var(--motion-duration-fast),box-shadow var(--motion-duration-fast); }
+.progress-track>span { transition:width var(--motion-duration-normal) var(--motion-easing-emphasized); }
+.modal::backdrop { animation:backdrop-in var(--motion-duration-normal) var(--motion-easing-standard) both; }
+.modal.is-closing::backdrop { animation:backdrop-out var(--motion-duration-fast) var(--motion-easing-standard) both; }
+#toast { transition:opacity var(--motion-duration-fast),transform var(--motion-duration-normal) var(--motion-easing-emphasized); }
+.boot[aria-busy="true"] .skeleton-hero,.boot[aria-busy="true"] .skeleton-card { animation:skeleton-breathe var(--motion-duration-skeleton) ease-in-out infinite alternate; }
+@keyframes backdrop-in { from { background:var(--color-overlay-clear); } to { background:var(--color-overlay); } }
+@keyframes backdrop-out { to { background:var(--color-overlay-clear); } }
+@keyframes skeleton-breathe { to { opacity:.55; } }
+@media(max-width:900px) { .sidebar { transition:transform var(--motion-duration-normal) var(--motion-easing-emphasized); } }
+@media(prefers-reduced-motion:reduce) {
+ *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; }
+ .word-card:hover,.word-card:focus-within { transform:none; }
+}
