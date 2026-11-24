@@ -42,10 +42,8 @@ Thumbs.db
 Desktop.ini
 docs/qa/
 
-# Required vocabulary sources belong in this PRIVATE backup repository.
-# Do not publish them or change repository visibility without reviewing rights.
+# Raw import inputs and personal vocabulary are not public assets.
 
 data/private/
 data/vocabulary.local.json
-data/vocabulary.json
 .openai/

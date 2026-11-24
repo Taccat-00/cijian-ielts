@@ -17,4 +17,4 @@ for (const name of files) {
   await mkdir(dirname(resolve(destination, name)), { recursive: true });
   await copyFile(resolve(name), resolve(destination, name));
 }
-console.log('已构建 dist/：仅包含网站源码和自编示例词库，不包含本地词表和参考截图。');
+console.log('已构建 dist/：包含网站源码、完整 3631 词词库及备用示例，不包含原始词表和个人学习数据。');

@@ -1,4 +1,4 @@
-// Exact assets shared by the server and build. The local vocabulary stays private.
+// Exact assets shared by the server and build, including the full public vocabulary.
 export const PUBLIC_FILES = [
   "index.html",
   "favicon.svg",
@@ -22,6 +22,7 @@ export const PUBLIC_FILES = [
   "src/review/bootstrap.js",
   "src/styles.css",
   "data/demo.json",
+  "data/vocabulary.json",
   "src/components/AppShell.js",
   "src/components/Modal.js",
   "src/components/Progress.js",
