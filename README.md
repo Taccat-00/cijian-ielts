@@ -9,8 +9,8 @@
 需要 Node.js 20 或更高版本。
 
 ```sh
-git clone https://github.com/Taccat-00/cijian-ielts-open-source.git
-cd cijian-ielts-open-source
+git clone https://github.com/Taccat-00/cijian-ielts.git
+cd cijian-ielts
 npm ci --ignore-scripts
 npm start
 ```
